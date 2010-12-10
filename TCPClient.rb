@@ -1,7 +1,5 @@
 require 'net/telnet'
 
-#This is a new comment added - Do the commit with out 
-#add and expect it will not add this comment
 server = Net::Telnet::new('Host' => '127.0.0.1',
 'Port' => 1234,
 'Telnetmode' => false)
