@@ -1,6 +1,6 @@
 require 'net/telnet'
 
-#Create a new net-telnet object. This is a test
+
 server = Net::Telnet::new('Host' => '127.0.0.1',
 'Port' => 1234,
 'Telnetmode' => false)

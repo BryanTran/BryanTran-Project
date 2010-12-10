@@ -1,5 +1,8 @@
 require 'socket'
 
+#This function will download the file - You need to 
+#pass a connection object to it.
+
 def download_file(connection)
 connection.puts "You enter number: 1"
 end
