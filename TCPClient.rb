@@ -1,7 +1,7 @@
 require 'net/telnet'
 
 #-------------------------------------------------
-#Modify 1: bug1111
+#Modify 1: bug1111 - Keep original bug1111
 #------------------------------------------------
 server = Net::Telnet::new('Host' => '127.0.0.1',
 'Port' => 1234,
@@ -35,4 +35,7 @@ exit = 3 if data =~ /quit/
 
 end
 break if exit == 3
+#------------------------------------------------------
+#Modify 2: File in Bug0000
+#-----------------------------------------------------
 end#end whileloop
