@@ -1,5 +1,8 @@
 require 'net/telnet'
 
+#-------------------------------------------------
+#Add dash lines again.
+#------------------------------------------------
 server = Net::Telnet::new('Host' => '127.0.0.1',
 'Port' => 1234,
 'Telnetmode' => false)
