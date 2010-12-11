@@ -1,8 +1,7 @@
 require 'net/telnet'
 
 #-------------------------------------------------
-
-#This modification is for bug#1234
+#Modify 1: bug1111
 #------------------------------------------------
 server = Net::Telnet::new('Host' => '127.0.0.1',
 'Port' => 1234,
