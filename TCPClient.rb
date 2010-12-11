@@ -1,8 +1,5 @@
 require 'net/telnet'
 
-#---------------------------------------------------------------------
-#First change - Added dash lines.
-#---------------------------------------------------------------------
 server = Net::Telnet::new('Host' => '127.0.0.1',
 'Port' => 1234,
 'Telnetmode' => false)
@@ -34,8 +31,5 @@ puts data
 exit = 3 if data =~ /quit/
 
 end
-#---------------------------------------------------------------------
-#Second change - Added dash lines.
-#---------------------------------------------------------------------
 break if exit == 3
 end#end whileloop
