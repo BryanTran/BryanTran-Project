@@ -25,6 +25,9 @@ exit = 0
 #Then server received this and send the word 'quit' back
 #to us so that we can terminate our keyboard input loop.
 
+#---------------------------------------------
+#Modify from the master
+#--------------------------------------------
 while lines_to_send = gets
 
 server.puts(lines_to_send.chomp)
