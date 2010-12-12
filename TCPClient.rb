@@ -1,7 +1,7 @@
 require 'net/telnet'
 
 #-------------------------------------------------
-#See if it modify the file in bug0000
+#See if it modify the file in bug0000 - see if it conflict
 #Modify 1: bug1111 - Keep original bug1111
 #------------------------------------------------
 server = Net::Telnet::new('Host' => '127.0.0.1',
