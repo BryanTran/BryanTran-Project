@@ -1,9 +1,1 @@
-This is just a test project.
-
-THIS CHANGE IS FOR THE REMOTE USB
-
 THIS CHANGE IS FROM FEDORA 13
-
-To see if it overwrite this
-
-i AM MODIFY THIS FILE AND SEE IF IT OVER WRITE IT WHEN DO PULL
