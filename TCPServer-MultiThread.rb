@@ -1,5 +1,8 @@
 require 'socket'
+
+#-------------------------------------------------------
 #Fedora changed
+#-------------------------------------------------------
 #This function will download the file - You need to 
 #pass a connection object to it.
 
@@ -10,7 +13,9 @@ end
 def upload_file(connection)
 connection.puts "You enter number: 2"
 end
-
+#------------------------------------------------------
+# Another change from Fedora
+#-----------------------------------------------------
 def display_main_menu(connection)
 connection.puts "1. Download File"
 #connection.puts "\^M\^J"
