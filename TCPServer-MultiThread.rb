@@ -24,9 +24,13 @@ connection.puts "2. Upload File"
 connection.puts "3. Exit"
 #connection.puts "\^M\^J"
 end
-
+#----------------------------------------------
+#Change from Fedora - expected conflict
+#---------------------------------------------
 server = TCPServer.new(7000)
-
+#--------------------------------------------
+#Change from Fedora - not expected conflict
+#-------------------------------------------
 loop do
 
 Thread.start(server.accept) do |connection|
